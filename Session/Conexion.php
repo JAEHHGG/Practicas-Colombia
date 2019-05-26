@@ -1,5 +1,5 @@
 <?php
-$host = '192.168.0.9';
+$host = 'localhost';
 $user = 'server';
 $password = 'server';
 $db = 'Registro';
