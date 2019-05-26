@@ -1,6 +1,6 @@
 <?php
 
-include('Conexion.php');
+include('../Session/Conexion.php');
 
 $nombres = $_POST["nombres"];
 $apellidos =$_POST["apellidos"];
