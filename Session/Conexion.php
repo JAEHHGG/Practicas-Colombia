@@ -1,5 +1,5 @@
 <?php
-$conexion = mysqli_connect("localhost", "server", "server", "Registro");
+$conexion = mysqli_connect("192.168.0.9", "server", "server", "Registro");
 if (!$conexion) {
     echo 'Error de conexión en la base de datos'
 }
