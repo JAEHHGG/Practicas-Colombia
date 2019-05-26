@@ -1,12 +1,12 @@
 <?php
-$host = 'localhost';
+$host = '192.168.0.9';
 $user = 'server';
 $password = 'server';
 $db = 'Registro';
 $conexion = new mysqli($host, $user, $password, $db);
 if ($conexion -> connect_errno){
-    echo 'no hay conexion con la bd';
+    echo 'Error de conexión con la base de datos';
 }else{
-    echo 'Nos conectamos';
+    echo 'Conexión exitosa';
 }
 ?>
