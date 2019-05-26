@@ -123,3 +123,9 @@
     	<script src="js/registro.js" type="text/javascript"></script>
 	</body>
 </html>
+
+
+
+
+
+
