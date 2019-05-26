@@ -17,6 +17,8 @@ if (!resultado) {
 } else {
     echo 'Registro exitoso';
 }
+
+mysqli_close($conexion);
 ?>
 
 
