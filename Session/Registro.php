@@ -60,13 +60,13 @@
 								<input id="apellidos" name="apellidos" type="" class="form-control" placeholder="Apellidos" required>
 							</div>
 							<div class="form-group">
-								<input id="correo" type="email" name="email" class="form-control" placeholder="Correo electrónico" required>
+								<input id="correo" type="correo" name="email" class="form-control" placeholder="Correo electrónico" required>
 							</div>
 							<div class="form-group">
 								<input id="contraseña" type="password" name="contraseña" class="form-control" placeholder="Contraseña" required>
 							</div>
 							<div class="form-group">
-								<input id="repetir" type="password" name="repetir-contraseña" class="form-control" placeholder="Repetir Contraseña" required>
+								<input id="repetir" type="password" name="repetir" class="form-control" placeholder="Repetir Contraseña" required>
 							</div>
 							<div class="form-group">
 								<input id="documento" name="documento" type="" class="form-control" placeholder="Documento de Identidad" required>
