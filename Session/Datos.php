@@ -9,7 +9,7 @@ $contraseña = $_POST["contraseña"];
 $repetir = $_POST["repetir"];
 $documento = $_POST["documento"];
 
-$insertar = "INSERT INTO Usuario(nombres, apellidos, correo, contraseña, repetir, documento) VALUES ('$nombres', '$apellidos', '$correo', '$contraseña', '$repetir', '$documento')";
+$insertar = "INSERT INTO Usuario(nombres, apellidos, correo, contraseña, repetir, documento) VALUES ("$nombres", "$apellidos", "$correo", "$contraseña", "$repetir", "$documento")";
 
 $resultado = mysqli_query($conexion, $insertar);
 if (!$resultado) {
