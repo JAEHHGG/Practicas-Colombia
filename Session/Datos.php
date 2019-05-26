@@ -9,4 +9,3 @@ $contraseña = $_POST["contraseña"];
 $repetir-contraseña = $_POST["repetir-contraseña"];
 $documento = $_POST["documento"];
 
-?>
