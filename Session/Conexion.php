@@ -5,7 +5,7 @@ if (!$conexion) {
     echo 'Error de conexión';
 }
 else {
-    echo 'Conexión exitosa'
+    echo 'Conexión exitosa';
 }
 
 ?>
