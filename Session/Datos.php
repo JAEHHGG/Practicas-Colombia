@@ -5,11 +5,11 @@ include 'Conexion.php';
 $nombres = $_POST["nombres"];
 $apellidos = $_POST["apellidos"];
 $correo = $_POST["correo"];
-$contraseña = $_POST["contraseña"];
+$clave = $_POST["clave"];
 $repetir = $_POST["repetir"];
 $documento = $_POST["documento"];
 
-$insertar = "INSERT INTO Usuario(nombres, apellidos, correo, contraseña, repetir, documento) VALUES ("$nombres", "$apellidos", "$correo", "$contraseña", "$repetir", "$documento")";
+$insertar = "INSERT INTO Usuario(nombres, apellidos, correo, contraseña, repetir, documento) VALUES ('$nombres', '$apellidos', '$correo', '$clave', '$repetir', '$documento')";
 
 $resultado = mysqli_query($conexion, $insertar);
 if (!$resultado) {

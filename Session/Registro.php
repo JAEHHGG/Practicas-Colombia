@@ -63,7 +63,7 @@
 								<input id="correo" type="correo" name="email" class="form-control" placeholder="Correo electrónico" required>
 							</div>
 							<div class="form-group">
-								<input id="contraseña" type="password" name="contraseña" class="form-control" placeholder="Contraseña" required>
+								<input id="contraseña" type="password" name="clave" class="form-control" placeholder="Contraseña" required>
 							</div>
 							<div class="form-group">
 								<input id="repetir" type="password" name="repetir" class="form-control" placeholder="Repetir Contraseña" required>
