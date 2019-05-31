@@ -3,7 +3,7 @@ function validar() {
     nombres = document.getElementById("nombres").value;
     apellidos = document.getElementById("apellidos").value;
     correo = document.getElementById("correo").value;
-    contraseña = document.getElementById("contraseña").value;
+    contraseña = document.getElementById("clave").value;
     repetir = document.getElementById("repetir").value;
     documento = document.getElementById("documento").value;
 
@@ -11,7 +11,7 @@ function validar() {
     //* Expresión que permite validar el correo electrónico *//
     expresión = /\w+@\w+\.+[a-z]/;
     //* Condicional, valida que se debe escribir en todos los campos *//
-    if (nombres === "" || apellidos === "" || correo === "" || contraseña === "" || repetir === "" || documento === "") {
+    if (nombres === "" || apellidos === "" || correo === "" || clave === "" || repetir === "" || documento === "") {
         alert("Todos los campos son obligatorios");
         return false;
     }
@@ -36,7 +36,7 @@ function validar() {
         return false;
     }
     //* Longitud de la contraseña menor a 20 caractéres *//
-    else if (contraseña.length > 20) {
+    else if (clave.length > 20) {
         alert("Contraseña muy larga");
         return false;
     }
@@ -56,7 +56,7 @@ function validar() {
         return false;
     }
     //* Se comprueba que las contraseñas sean las mismas *//
-    else if (contraseña != repetir) {
+    else if (clave != repetir) {
         alert("Las dos claves No son iguales");
         return false;
     }
