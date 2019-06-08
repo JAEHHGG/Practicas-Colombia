@@ -31,9 +31,15 @@ if (mysqli_num_rows($verificar_documento) > 0) {
 
 $resultado = mysqli_query($conexion, $insertar);
 if (!$resultado) {
-    echo 'Error de registro';
+    echo '<script>
+         alert("Error de registro");
+         window.history.go(-1);
+         </script>';
 } else {
-    echo 'Registro exitoso';
+    echo '<script>
+         alert("Registro exitoso");
+         window.history.go(-1);
+         </script>';
 }
 
 mysqli_close($conexion);
