@@ -11,6 +11,12 @@ $documento = $_POST["documento"];
 
 $insertar = "INSERT INTO Usuario(nombres, apellidos, correo, clave, repetir, documento) VALUES ('$nombres', '$apellidos', '$correo', '$clave', '$repetir', '$documento')";
 
+$verificar_correo = mysqli_query($conexion, "SELECT * FROM Usuario WHERE correo = '$correo'");
+if (mysqli_num_rows($verificar_correo) > 0) {
+    echo 'El correo ya se encuentra registrado';
+    exit;
+}
+
 $resultado = mysqli_query($conexion, $insertar);
 if (!$resultado) {
     echo 'Error de registro';
