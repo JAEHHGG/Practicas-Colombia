@@ -17,6 +17,12 @@ if (mysqli_num_rows($verificar_correo) > 0) {
     exit;
 }
 
+$verificar_documento = mysqli_query($conexion, "SELECT * FROM Usuario WHERE documento = '$documento'");
+if (mysqli_num_rows($verificar_documento) > 0) {
+    echo 'El documento ya se encuentra registrado';
+    exit;
+}
+
 $resultado = mysqli_query($conexion, $insertar);
 if (!$resultado) {
     echo 'Error de registro';
