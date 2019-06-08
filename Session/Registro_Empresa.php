@@ -72,6 +72,7 @@
 						</form>
 						<div class="col-12 forgot">
 							<a href="Login.php">Iniciar Sesión</a>
+							<br>
 							<a href="Login.php">Soy Estudiante</a>
 						</div>
 					</div>
