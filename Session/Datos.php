@@ -13,13 +13,19 @@ $insertar = "INSERT INTO Usuario(nombres, apellidos, correo, clave, repetir, doc
 
 $verificar_correo = mysqli_query($conexion, "SELECT * FROM Usuario WHERE correo = '$correo'");
 if (mysqli_num_rows($verificar_correo) > 0) {
-    echo 'El correo ya se encuentra registrado';
+    echo '<script>
+         alert("El correo ya se encuentra registrado");
+         window.history.go(-1);
+         </script>';
     exit;
 }
 
 $verificar_documento = mysqli_query($conexion, "SELECT * FROM Usuario WHERE documento = '$documento'");
 if (mysqli_num_rows($verificar_documento) > 0) {
-    echo 'El documento ya se encuentra registrado';
+     echo '<script>
+         alert("El documento ya se encuentra registrado");
+         window.history.go(-1);
+         </script>';
     exit;
 }
 
@@ -33,5 +39,3 @@ if (!$resultado) {
 mysqli_close($conexion);
 
 ?>
-
-
