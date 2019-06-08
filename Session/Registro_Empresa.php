@@ -63,13 +63,16 @@
 								<input id="correo" type="" name="correo" class="form-control" placeholder="Correo electrónico" required>
 							</div>
 							<div class="form-group">
+								<input id="clave" type="" name="clave" class="form-control" placeholder="Contraseña" required>
+							</div>
+							<div class="form-group">
 								<input id="direccion" type="" name="direccion" class="form-control" placeholder="Dirección" required>
 							</div>
 							<button type="submit" class="btn"><i class="fas"></i>ENVIAR</button>
 						</form>
 						<div class="col-12 forgot">
 							<a href="Login.php">Iniciar Sesión</a>
-							<a href="Login.php">Soy empresa</a>
+							<a href="Login.php">Soy Estudiante</a>
 						</div>
 					</div>
 				</div> <!--Final del Modal Content-->
