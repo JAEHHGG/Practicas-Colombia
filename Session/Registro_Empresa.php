@@ -51,22 +51,36 @@
 						<img src="../Img/LogotipoPracticasColombia.ico" alt="Logo Prácticas Colombia">
 
 				<!-- Form que referencia al archivo Datos.php y el método Post -->
-
+                 <!--
+                *Form, donde se referencia el metodo de envio de datos php y el archivo que referencia con    extensión .php
+                *action = "Datos_Empresa.php"
+                *method = "post"
+                -->
 						<form action="Datos_Empresa.php" method="post" class="col-12" onsubmit="return validar();">
 							<div class="form-group">
 								<input id="empresa" name="empresa" type="" class="form-control" placeholder="Empresa" required>
+								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
+								*name = "empresa" -->
 							</div>
 							<div class="form-group">
 								<input id="telefono" name="telefono" type="" class="form-control" placeholder="Teléfono" required>
+								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
+								*name = "telefono" -->
 							</div>
 							<div class="form-group">
 								<input id="correo" type="" name="correo" class="form-control" placeholder="Correo electrónico" required>
+								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
+								*name = "correo" -->
 							</div>
 							<div class="form-group">
 								<input id="clave" type="" name="clave" class="form-control" placeholder="Contraseña" required>
+								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
+								*name = "clave" -->
 							</div>
 							<div class="form-group">
 								<input id="direccion" type="" name="direccion" class="form-control" placeholder="Dirección" required>
+								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
+								*name = "direccion" -->
 							</div>
 							<button type="submit" class="btn"><i class="fas"></i>ENVIAR</button>
 						</form>
@@ -118,7 +132,7 @@
 			</div>
 		</footer>
 
-    	<script src="js/registro.js" type="text/javascript"></script>
+    	<script src="js/registro_empresa.js" type="text/javascript"></script>
 	</body>
 </html>
 
