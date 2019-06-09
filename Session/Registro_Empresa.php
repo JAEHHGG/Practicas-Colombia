@@ -26,7 +26,7 @@
 			<div class="collapse navbar-collapse " id="navbarSupportedContent">
 				<ul class="navbar-nav mr-4">
 					<li class="nav-item">
-						<a class="nav-link" data-value="about" href="../index.php">Inicio</a> </li>
+						<a class="nav-link" data-value="about" href="../Index.php">Inicio</a> </li>
 					<li class="nav-item">
 						<a class="nav-link " data-value="portfolio" href="../Readme.php">Acerca de</a>
 						</li>
@@ -73,7 +73,7 @@
 								*name = "correo" -->
 							</div>
 							<div class="form-group">
-								<input id="clave" type="" name="clave" class="form-control" placeholder="Contraseña" required>
+								<input id="clave" type="password" name="clave" class="form-control" placeholder="Contraseña" required>
 								<!-- Cada input tiene un name que será referenciado en el archivo: Datos.php
 								*name = "clave" -->
 							</div>
@@ -87,7 +87,7 @@
 						<div class="col-12 forgot">
 							<a href="Login.php">Iniciar Sesión</a>
 							<br>
-							<a href="Login.php">Soy Estudiante</a>
+							<a href="Registro.php">Soy Estudiante</a>
 						</div>
 					</div>
 				</div> <!--Final del Modal Content-->
