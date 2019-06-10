@@ -9,6 +9,7 @@ if (!$conexion) {
 else {
     echo 'Conexión exitosa';
 }
+**/
 
-
+?>
 

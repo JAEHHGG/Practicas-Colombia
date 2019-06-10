@@ -1,4 +1,5 @@
 <?php
+
 // *Con include, se incluye dentro del archivo Datos_Empresa.php el archivo Conexion.php que es la conexión a la base de datos.
 include 'Conexion.php';
 
